@@ -538,6 +538,7 @@ a {
   background: whitesmoke;
   border-radius: 1.3rem;
   flex-direction: column;
+  text-align: center;
 }
 .container input[type=text],
 .container input[type=password] {
@@ -552,6 +553,13 @@ input[type=date] {
   width: 82%;
   padding: 10px;
   border: none;
+}
+
+input[type=checkbox],
+label {
+  width: 82%;
+  font-size: 20px;
+  padding: 50px;
 }
 
 .input__container {
@@ -574,6 +582,13 @@ input[type=date] {
 .log__btn:hover {
   background: radial-gradient(#AABD8C, #E9E3B4);
   color: #0f54c3;
+}
+
+.text__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .line {

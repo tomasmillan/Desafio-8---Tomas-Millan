@@ -32,6 +32,7 @@
     background: whitesmoke;
     @include round-corners;
     flex-direction: column;
+    text-align: center;
     
     input[type="text"],
     input[type="password"]
@@ -47,6 +48,13 @@ input[type="date"]{
     width: 82%;
     padding: 10px;
     border: none;
+}
+input[type="checkbox"],
+label
+{
+    width: 82%;
+    font-size: 20px;
+    padding: 50px;
 }
 .input__container{
     margin-bottom: 1rem;
@@ -67,6 +75,10 @@ input[type="date"]{
         background: map-get($backgroundColors, hero );
         color: #0f54c3;
     }
+}
+.text__container{
+    @include center;
+    flex-direction: column;
 }
 .line{
     border-bottom: 1.5px solid rgb(40, 40, 40);

@@ -592,6 +592,7 @@ when hovered over */
   width: 100%;
   font-size: 20px;
   font-weight: 200;
+  text-align: center;
 }
 
 @media (min-width: 950px) {
@@ -617,6 +618,9 @@ when hovered over */
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .col-4 .btn, .col-4 .fa {
+    color: #E9E3B4;
   }
 
   .c-img {

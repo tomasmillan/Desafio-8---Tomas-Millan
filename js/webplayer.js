@@ -27,49 +27,49 @@ let track_list = [
  {
     name: "1996",
     artist: "Tano de la Tierra",
-    image: "https://isiuey.org/images/demo/backgrounds/tanillo/6.jpeg",
+    image: "../img/tanillo/6.jpeg",
     path: "../music/1996.wav"
   },
   {
     name: "Amor de Camellos",
     artist: "Tano de la Tierra",
-    image: "https://isiuey.org/images/demo/backgrounds/tanillo/7.jpeg",
+    image: "../img/tanillo/7.jpeg",
     path: "../music/camellos.wav"
   },
   {
     name: "Luna Rioplatense",
     artist: "Tano de la Tierra",
-    image: "https://isiuey.org/images/demo/backgrounds/tanillo/1.jpeg",
+    image: "../img/tanillo/1.jpeg",
   path: "../music/luna.wav",
   },
   {
     name: "Rey Manuel",
     artist: "Tano de la Tierra",
-    image: "https://isiuey.org/images/demo/backgrounds/tanillo/4.jpeg",
+    image: "../img/tanillo/4.jpeg",
     path: "../music/rey.wav",
   },
   {
     name: "Canción de Jesús",
     artist: "Tano de la Tierra",
-    image: "https://isiuey.org/images/demo/backgrounds/tanillo/8.jpeg",
+    image: "../img/tanillo/8.jpeg",
     path: "../music/jesus.wav",
   },
   {
     name: "Dos Días de Verano",
     artist: "Tano de la Tierra",
-    image: "https://isiuey.org/images/demo/backgrounds/tanillo/2.jpeg",
+    image: "../img/tanillo/2.jpeg",
     path: "../music/dosdiasverano.wav",
   },
   {
     name: "El Día Que Me Fui",
     artist: "Tano de la Tierra",
-    image: "https://isiuey.org/images/demo/backgrounds/tanillo/3.jpeg",
+    image: "../img/tanillo/3.jpeg",
     path: "../music/dia.wav",
   },
   {
     name: "Fell in Love",
     artist: "Tano de la Tierra",
-    image: "https://isiuey.org/images/demo/backgrounds/tanillo/5.jpeg",
+    image: "../img/tanillo/5.jpeg",
     path: "../music/fellinlove.wav",
   },
 ];

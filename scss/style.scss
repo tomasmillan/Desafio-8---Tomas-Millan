@@ -127,6 +127,7 @@
     width: 100%;
     font-size: map-get($headings, p-2 );
     font-weight: 200;
+    text-align: center;
 }
 
 @media (min-width: 950px){
@@ -144,6 +145,9 @@
         flex-basis: 50%;
         @include center;
         flex-direction: column;
+        .btn{
+            color: map-get($backgroundColors, nav );
+        }
     }
     .c-img{
         padding: 0.8rem;

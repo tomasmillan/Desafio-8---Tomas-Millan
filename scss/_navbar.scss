@@ -4,6 +4,7 @@
     background-color: map-get($backgroundColors, main);
     position: sticky;
     top: 0;
+    z-index: 2;
     @include shadow;
 }
 .navbar{   

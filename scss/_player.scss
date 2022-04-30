@@ -63,6 +63,11 @@
     .next-track:hover {
     opacity: 1.0;
     }
+    .fa{
+        &:hover{
+            background-color: red;
+        }
+    }
     
     /* Define the slider width so that it scales properly */
     .slider_container {

@@ -32,7 +32,7 @@ a {
   transition: 0.5s all;
 }
 .btn:hover, .fa:hover {
-  background: #000;
+  background: rgb(133, 86, 86);
 }
 
 .title {
@@ -76,7 +76,7 @@ a {
   font-weight: 600;
 }
 .menu li a:hover {
-  border-bottom: 2px solid #57002A;
+  border-bottom: 2px solid #49582d;
 }
 
 .open-menu, .close-menu, .log-icon {
@@ -199,7 +199,7 @@ a {
   transition: 0.5s all;
 }
 .btn:hover, .fa:hover {
-  background: #000;
+  background: rgb(133, 86, 86);
 }
 
 .title {
@@ -308,7 +308,7 @@ a {
   transition: 0.5s all;
 }
 .btn:hover, .fa:hover {
-  background: #000;
+  background: rgb(133, 86, 86);
 }
 
 .title {
@@ -383,6 +383,10 @@ align items in a horizontal direction */
 .prev-track:hover,
 .next-track:hover {
   opacity: 1;
+}
+
+.fa:hover {
+  background-color: red;
 }
 
 /* Define the slider width so that it scales properly */
@@ -485,7 +489,7 @@ a {
   transition: 0.5s all;
 }
 .btn:hover, .fa:hover {
-  background: #000;
+  background: rgb(133, 86, 86);
 }
 
 .title {
@@ -640,7 +644,7 @@ label {
 
 .c-img {
   padding: 0.8rem;
-  border: 2px solid #57002A;
+  border: 2px solid #49582d;
   margin-bottom: 1rem;
 }
 
@@ -798,7 +802,7 @@ label {
 
   .c-img {
     padding: 0.8rem;
-    border: 2px solid #57002A;
+    border: 2px solid #49582d;
     margin-bottom: 1rem;
   }
 
